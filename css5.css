@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* main header */
+.main-header{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+/* header part */
+header{
+   background-image: url(./img5/background.png);
+   width: 100%;
+   float: left;
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position :center;
+   margin-bottom: -300px;
+}
+/* main header */
+.main-header{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.logo-part{
+   width: 50%;
+   float: left;
+}
+.logo-part img{
+    
+height: 114px;
+    
+padding: 27px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    text-align: end;
+}
+.menu-part ul{
+   margin-top: 36px;
+}
+.menu-part ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0px 20px 0px;
+}
+.menu-part ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* hero part */
+.hero-part{
+    width: 100%;
+ 
+
+}
+.hero-part-main{
+    width: 50%;
+    float: left;
+
+}
+.hero-part-main img{
+
+height: 481px;
+
+width: 559px;
+
+float: right;
+
+margin-top: -37px;
+}
+.hero-part-main h1{
+
+font-size: 54px;
+
+color: black;
+
+margin-left: 67px;
+}
+.hero-part-main h2{
+
+font-size: 32px;
+
+color: black;
+
+margin-left: 74px;
+
+margin-top: 26px;
+}
+.hero-part-main p{
+
+font-size: 26px;
+
+color: black;
+
+margin-left: 75px;
+
+margin-top: 25px;
+}
+.hero-part-main button{
+    
+font-size: 23px;
+    
+background-color: black;
+    
+color: white;
+    
+border-radius: 6px;
+    
+margin-left: 78px;
+}
+@media(max-width:600px){
+    .main-header{
+
+    }
+    .logo-part{
+        width: 100%;
+    }
+    .menu-part{
+
+text-align: center;
+
+width: 100%;
+
+margin-top: -39px;
+
+}
+    .menu-part ul{
+        
+    }
+    .hero-part{
+
+    }
+    .hero-part-main{
+
+    width: 100%;
+
+    }
+    
+.hero-part-main img{
+
+height: 413px;
+
+width: 523px;
+
+margin-top: -1px;
+
+}
+}
